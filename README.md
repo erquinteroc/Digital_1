@@ -1,6 +1,6 @@
 # Sumador Restador 4 bits - Laboratorio 2
 <p>
-Para la realizacion de un sumador restador podemos realizar la union de un Semisumador, el cual esta compuesto de la siguiente forma: 
+Para la realizacion de un sumador restador podemos realizar la union de un Semi-sumador, el cual esta compuesto de la siguiente forma: 
 </p>
 
 ![semisum](https://github.com/erquinteroc/Digital_1/assets/147540973/d5ebe052-3749-4a1c-84b5-e098e2293e40)
@@ -8,7 +8,7 @@ Para la realizacion de un sumador restador podemos realizar la union de un Semis
 ![tablaverda](https://github.com/erquinteroc/Digital_1/assets/147540973/d12c576d-3b54-4502-a7c8-66be60ebd67b)
 
 <p>
-La union de 4 semi-sumadores nos dara una salida de 4 bits, donce el carry sera incresado en la entrada Cin del siguiente semi-sumador. Adicionalmente es necesario agregar unas compuestar XOR a las entradas de B para hacer el complemento a 2 del numero B, en caso de que sea negativo. Como se observa en el siguiente circuito.
+La union de 4 semi-sumadores nos dara una salida de 4 bits, donce el carry sera ingresado en la entrada Cin del siguiente semi-sumador. Adicionalmente es necesario agregar unas compuestar XOR a las entradas de B para hacer el complemento a 2 del numero B, en caso de que sea negativo y nuestro Cin sea 1. Como se observa en el siguiente circuito.
 </p>
 
 ![sumador-Comple](https://github.com/erquinteroc/Digital_1/assets/147540973/2975385c-7963-4ddd-a7e8-1058775f4778)
@@ -107,7 +107,7 @@ module SumadorRestador4bits (
   assign Cout = (s11 ^ Cin);
 endmodule
 ```
-###Creacion del Test Bench
+### Creacion del Test Bench
 
     module SumadorRestador_Prueba_tb;
         reg A0, A1, A2, A3, B0, B1, B2, B3, Cin;
