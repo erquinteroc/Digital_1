@@ -1,4 +1,4 @@
-# Digital_1
+##Sumador Restador 4 bits - Laboratorio 2
 <p>
 Para la realizacion de un sumador restador podemos realizar la union de un Semisumador, el cual esta compuesto de la siguiente forma: 
 </p>
@@ -10,6 +10,7 @@ Para la realizacion de un sumador restador podemos realizar la union de un Semis
 <p>
 La union de 4 semi-sumadores nos dara una salida de 4 bits, donce el carry sera incresado en la entrada Cin del siguiente semi-sumador. Adicionalmente es necesario agregar unas compuestar XOR a las entradas de B para hacer el complemento a 2 del numero B, en caso de que sea negativo. Como se observa en el siguiente circuito.
 </p>
+
 ![sumador-Comple](https://github.com/erquinteroc/Digital_1/assets/147540973/2975385c-7963-4ddd-a7e8-1058775f4778)
 
 **Otra forma de expresar el circuito sumador restador usaldo el sumador que tiene por defecto Digital, como seobserva a continuacion:**
