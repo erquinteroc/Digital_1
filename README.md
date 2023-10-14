@@ -1,4 +1,4 @@
-##Sumador Restador 4 bits - Laboratorio 2
+# Sumador Restador 4 bits - Laboratorio 2
 <p>
 Para la realizacion de un sumador restador podemos realizar la union de un Semisumador, el cual esta compuesto de la siguiente forma: 
 </p>
